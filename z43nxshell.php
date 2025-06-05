@@ -3,7 +3,7 @@
 ob_start();
 session_start();
 
-$hash = '$2a$16$dNUmFCHyYvE34bJv0aVqs.dvkYNPNrYDfr8juzeG71O2JvPf0DylS'; // hash dari <Zhaenx6702/>
+$hash = '$2a$16$dNUmFCHyYvE34bJv0aVqs.dvkYNPNrYDfr8juzeG71O2JvPf0DylS';
 
 if (!isset($_SESSION['auth'])) {
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['pass']) && password_verify($_POST['pass'], $hash)) {
