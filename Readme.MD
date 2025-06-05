@@ -1,4 +1,3 @@
-readme_content = """
 # z43nxshell.php
 
 `z43nxshell.php` adalah webshell ringan yang sengaja dibuat khusus untuk lingkungan yang memiliki **`disable_functions` aktif**. Script ini tetap bisa digunakan untuk eksplorasi lingkungan server, enumerasi, serta interaksi file secara terbatas namun efektif.
@@ -66,4 +65,3 @@ Codename: zhaenx
 Role: White Hat Penetration Tester
 
 Motto: "Enumerate everything. Assume nothing."
-"""
